@@ -1,0 +1,141 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #444;
+}
+p{
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.wow {
+    visibility: hidden;
+}
+#intro {
+    background: url('../img/19.jpg')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 70vh;
+}
+.navbar {
+  box-shadow: none;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+}
+.header-texto {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.footer h2 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8;
+}
+.footer-nav {
+  list-style-type: none;
+}
+h1, h2, h3,h4 {
+  font-family: 'Playfair Display', serif;
+  color: #222;
+  line-height: 1.8;
+}
+.top-nav-collapse {
+    background-color: #333;
+}
+.tarjeta {
+  height: 600px;
+  transition: 1s;
+}
+.tarjeta:hover {
+  opacity: 0.7;
+}
+.tarjeta-content h2, h4{
+  font-family: 'Roboto', sans-serif;
+}
+.bg-danger {
+  background-color: #ff3338 !important;
+}
+.bg-dark {
+  background-color: #222 !important;
+}
+.section-1 {
+  background: url('../img/6.jpeg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+}
+.section-2 {
+  background: url('../img/g/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+}
+.section-3 {
+  background: url('../img/i/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+}
+.section-4 {
+  background: url('../img/c/1.jpg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+}
+.section-5 {
+  background: url('../img/6.jpeg')no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 80vh;
+}
+.paginas-header {
+  height: 80vh;
+}
+.card-trabajos {
+  height: 400px;
+  transition: 0.5s;
+}
+.card-trabajos:hover {
+  opacity: 0.7;
+}
+.contenedor-pagina {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.fa {
+  color: #fff;
+}
+.imagen-iglesia {
+  height: 200px;
+  width: 200px;
+}
+.full-view {
+  height: 100vh;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #333;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #333;
+  }
+}
+@media (max-width: 768px) {
+  .header-texto {
+    font-size: 3em;
+  }
+}
